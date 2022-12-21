@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: msb-pago
+server:
+  port: 8097
+  servlet:
+    context-path: /msbpago
+
+ #ms-pago.ribbon.listOfServers=http://localhost:8085,http://localhost:8086
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
